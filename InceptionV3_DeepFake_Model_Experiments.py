@@ -24,6 +24,7 @@ from tensorflow.keras.applications.inception_v3 import InceptionV3
 from sklearn.ensemble import RandomForestClassifier
 
 # import optimizers and callbacks
+# A callback is a set of functions to be applied at given stages of the training procedure. You can use callbacks to get a view on internal states and statistics of the model during training.
 from keras.optimizers import SGD
 from keras.optimizers import Adadelta
 from keras.optimizers import RMSprop
