@@ -33,6 +33,11 @@ from keras.optimizers import Nadam
 from keras.callbacks import LearningRateScheduler
 from keras.callbacks import ModelCheckpoint
 
+# gridsearch algorithm
+#from sklearn.model_selection import GridSearchCV
+#from sklearn import svm
+#from sklearn.svm import SVR
+
 from tensorflow.python.keras.layers import VersionAwareLayers
 
 layers = VersionAwareLayers()
